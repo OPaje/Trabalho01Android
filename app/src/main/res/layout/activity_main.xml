@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Clique no exercício para ir até ele"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nome"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <TextView
+        android:id="@+id/et_matriz_quadrado"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Matriz Elevada ao Quadrado"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_matriz_multiplica"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <TextView
+        android:id="@+id/et_matriz_multiplica"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Multiplica Matrizes"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_matriz2"
+        app:layout_constraintVertical_bias="0.219" />
+
+    <TextView
+        android:id="@+id/et_matriz2"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Matriz 2"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_matriz1"
+        app:layout_constraintVertical_bias="0.168" />
+
+    <TextView
+        android:id="@+id/et_primo"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Acha Primos"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_desvio_padrao"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <TextView
+        android:id="@+id/et_par_impar"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Separa Par e Ímpar"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_primo"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/et_matriz1"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Matriz 1"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_par_impar"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <TextView
+        android:id="@+id/et_titulo_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trabalho 01"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/et_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome: Jean Carlos de Souza Silva"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_titulo_main"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <TextView
+        android:id="@+id/et_desvio_padrao"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Desvio Padrão"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.082" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
